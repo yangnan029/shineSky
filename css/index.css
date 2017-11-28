@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  height: 0;
+  clear: both;
+}
+a {
+  text-decoration: none;
+}
+body {
+  min-width: 1185px;
+}
+.container {
+  width: 100%;
+  min-width: 1185px;
+  background: #0061ae;
+  margin: 0 auto;
+}
+.container .header {
+  width: 1185px;
+  margin: 0 auto;
+  height: 75px;
+  line-height: 75px;
+}
+.container .header .logo {
+  float: left;
+  width: 185px;
+  height: 100%;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/logo.png') 0 10px no-repeat;
+}
+.container .header .header_list {
+  float: left;
+  height: 75px;
+  margin: 0px 20px 0;
+  text-align: center;
+  position: relative;
+}
+.container .header .header_list a {
+  width: 124px;
+  height: 100%;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+}
+.container .header .header_list a:hover {
+  color: #0061ae;
+  background: #ffffff;
+}
+.container .header .header_list a.about_us_icon:hover .about_us_display {
+  display: block;
+}
+.container .header .about_us_display {
+  display: none;
+  width: 447px;
+  height: 150px;
+  padding: 25px 0;
+  line-height: 1;
+  background: #fff;
+  position: absolute;
+  left: 128px;
+}
+.container .header .about_us_display ol {
+  float: left;
+  width: 124px;
+  height: 100px;
+  color: #999;
+}
+.container .header .about_us_display ol li {
+  list-style: none;
+  height: 20px;
+  line-height: 20px;
+  margin: 3px 0;
+  color: #999;
+  font-size: 12px;
+  text-align: center;
+}
+.container .header .about_us_display ol li:hover {
+  color: #0061ae;
+  transform: translateX(5px);
+}
+.container .header .about_us_display .company_show {
+  float: left;
+  width: 323px;
+  text-align: center;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.container .header .about_us_display .company_show img {
+  width: 222px;
+  height: 99px;
+  margin-bottom: 5px;
+}
+.container .header .about_us_display .company_show p {
+  font-size: 12px;
+  color: #666;
+  text-align: center;
+  margin: 5px 0 15px;
+}
+.container .Professional {
+  float: left;
+  width: 100px;
+  height: 32px;
+  display: block;
+  margin: 23px 20px 0;
+  background: #fff;
+  color: #0061ae;
+  font-size: 15px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: bold;
+}
+.container .free_tel {
+  float: right;
+  padding: 17px 0 18px 40px;
+}
+.container .free_tel p {
+  font-size: 14px;
+  height: 20px;
+  line-height: 20px;
+  color: #fff;
+}
+.banner_wrap {
+  width: 1185px;
+  height: 460px;
+  margin: 0 auto;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/uploads/image/20160717/1468730019.jpg') no-repeat;
+}
+.product_center {
+  height: 412px;
+  min-width: 1185px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/gray_bg1.jpg') repeat-x;
+}
+.product_center h3 {
+  font-size: 23px;
+  color: #0061ae;
+  text-align: center;
+  padding: 35px 0 23px 0;
+}
+.product_center .pro_cen {
+  width: 100%;
+}
+.product_center .pro_cen .pro_cen_show {
+  width: 1185px;
+  margin: 0 auto;
+}
+.product_center .pro_cen .pro_cen_show .center_left {
+  float: left;
+  width: 230px;
+  padding: 0 32px;
+  background: #ffffff;
+  height: 224px;
+  text-align: center;
+}
+.product_center .pro_cen .pro_cen_show .center_left .center_left_tit {
+  font-size: 20px;
+  color: #0061ae;
+  font-weight: bold;
+  margin: 73px 0 12px 0;
+}
+.product_center .pro_cen .pro_cen_show .center_left .center_left_con {
+  font-size: 12px;
+  color: #666;
+}
+.product_center .pro_cen .pro_cen_show .pro_img {
+  float: left;
+  width: 580px;
+  height: 224px;
+  overflow: hidden;
+}
+.product_center .pro_cen .pro_cen_show .pro_right {
+  float: right;
+  width: 297px;
+  height: 224px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/customize_bg.jpg');
+}
+.items {
+  min-width: 1185px;
+  height: 180px;
+  padding: 58px 0;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/gray_bg2.jpg') 0 50% repeat-x;
+}
+.items .company {
+  width: 1185px;
+  margin: 0 auto;
+}
+.items .company .company_info {
+  float: left;
+  width: 590px;
+  height: 177px;
+  overflow: hidden;
+  background: #fff;
+  color: #666;
+}
+.items .company .company_info img {
+  display: block;
+  float: left;
+  width: 175px;
+  margin: 20px;
+}
+.items .company .company_info h2 {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #0061ae;
+  font-size: 17px;
+}
+.items .company .company_info p {
+  height: 45px;
+  font-size: 12px;
+  color: #999;
+  margin: 15px 0;
+  border-bottom: 1px dotted #ccc;
+  width: 345px;
+  margin-left: 215px;
+}
+.items .company .company_info a {
+  color: #333;
+  font-size: 12px;
+}
+.items .company .company_info a .more_icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') 0 2px no-repeat;
+  background-position: -39px 0;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.items .company .work_show {
+  float: left;
+  width: 590px;
+  height: 177px;
+  margin-left: 5px;
+  background: #0061ae;
+}
+.items .company .work_show .work {
+  width: 241px;
+  margin-left: 30px;
+  float: left;
+  overflow: hidden;
+  color: #fff;
+}
+.items .company .work_show .work h2 {
+  margin-top: 30px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 17px;
+  padding-left: 25px;
+}
+.items .company .work_show .work p {
+  padding-left: 25px;
+  font-size: 12px;
+  color: #fff;
+  margin: 15px 0;
+  width: 345px;
+}
+.items .company .work_show .work p.liner {
+  width: 30px;
+  height: 1px;
+  background: #3381be;
+  margin: 15px 0 15px 25px;
+}
+.items .company .work_show img {
+  display: block;
+  float: right;
+  width: 295px;
+  overflow: hidden;
+}
+.footer_container {
+  background: #FFF;
+}
+.footer_container .footer {
+  width: 1185px;
+  padding: 43px 0 15px;
+  margin: 0 auto;
+  background: #fff;
+}
+.footer_container .footer .ul_lar {
+  list-style: none;
+}
+.footer_container .footer .ul_lar .about_us {
+  float: left;
+  margin-right: 67px;
+  border-right: 1px dotted #ccc;
+}
+.footer_container .footer .ul_lar .about_us h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.footer_container .footer .ul_lar .about_us li {
+  color: #999;
+  width: 144px;
+  line-height: 24px;
+  font-size: 12px;
+  padding-left: 10px;
+  list-style: none;
+}
+.footer_container .footer .ul_lar .pro_list {
+  width: 288px;
+  float: left;
+  margin-right: 67px;
+  border-right: 1px dotted #ccc;
+}
+.footer_container .footer .ul_lar .pro_list h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.footer_container .footer .ul_lar .pro_list li {
+  color: #999;
+  width: 144px;
+  float: left;
+  line-height: 24px;
+  font-size: 12px;
+  list-style: none;
+}
+.footer_container .footer .ul_lar .out {
+  float: left;
+  margin-right: 67px;
+  border-right: 1px dotted #ccc;
+}
+.footer_container .footer .ul_lar .out h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.footer_container .footer .ul_lar .out li {
+  color: #999;
+  width: 144px;
+  line-height: 24px;
+  font-size: 12px;
+  padding-left: 10px;
+  list-style: none;
+}
+.footer_container .footer .ul_lar .gps {
+  float: left;
+  margin-right: 67px;
+  border-right: 1px dotted #ccc;
+}
+.footer_container .footer .ul_lar .gps h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+.footer_container .footer .ul_lar .gps li {
+  color: #999;
+  width: 144px;
+  line-height: 24px;
+  font-size: 12px;
+  padding-left: 10px;
+  list-style: none;
+}
+.footer_container .footer .ul_lar .fllow h3 {
+  font-size: 16px;
+  font-weight: normal;
+}
+.footer_container .footer .ul_lar .fllow a {
+  display: inline-block;
+  width: 38px;
+  height: 38px;
+  margin-right: 10px;
+  margin-top: 10px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat;
+  border-radius: 50%;
+}
+.footer_container .footer_sub {
+  width: 1185px;
+  margin: 43px auto 0;
+  padding: 25px 0;
+  border-top: 1px solid #f0f0f0;
+}
+.footer_container .footer_sub .language {
+  position: relative;
+  float: left;
+  width: 150px;
+  height: 38px;
+  background: #0061ae;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+}
+.footer_container .footer_sub .language:hover .lan_change_display {
+  display: block;
+}
+.footer_container .footer_sub .language a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+}
+.footer_container .footer_sub .language .lan_change_display {
+  display: none;
+  position: absolute;
+  bottom: 38px;
+  height: 76px;
+  width: 150px;
+  background: #0061ae;
+  color: #fff;
+  text-align: center;
+  line-height: 38px;
+}
+.footer_container .footer_sub .language .lan_change_display a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  height: 38px;
+  width: 150px;
+  display: block;
+}
+.footer_container .footer_sub .copy_right {
+  float: right;
+  line-height: 38px;
+  color: #999;
+  font-size: 12px;
+}

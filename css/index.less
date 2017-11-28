@@ -1,0 +1,439 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+.clearfix{
+    zoom: 1;
+    &:after{
+        content: '';
+        display: block;
+        height: 0;
+        clear: both;
+    }
+}
+a{
+    text-decoration: none;
+}
+body{
+    min-width: 1185px;
+}
+.container{
+    width: 100%;
+    min-width: 1185px;
+    background: #0061ae;
+    margin: 0 auto;
+    .header{
+        width: 1185px;
+        margin: 0 auto;
+        height: 75px;
+        line-height: 75px;
+        .logo{
+            float: left;
+            width: 185px;
+            height: 100%;
+            background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/logo.png') 0 10px no-repeat;
+        }
+        .header_list{
+            float: left;
+            height: 75px;
+            margin: 0px 20px 0;
+            text-align: center;
+            position: relative;
+            a{
+                width: 124px;
+                height: 100%;
+                display: inline-block;
+                color: #fff;
+                text-decoration: none;
+                &:hover{
+                    color: #0061ae;
+                    background: #ffffff;
+                }
+                &.about_us_icon{
+                    &:hover{
+                        .about_us_display{
+                            display: block;
+                        }
+                    }
+                }
+                }
+            }
+            .about_us_display{
+                display: none;
+                width: 447px;
+                height: 150px;
+                padding: 25px 0;
+                line-height: 1;
+                background: #fff;
+                position: absolute;
+                left: 128px;
+                ol{
+                    float: left;
+                    width: 124px;
+                    height: 100px;
+                    color: #999;
+                    li{
+                        
+                        list-style: none;
+                        height: 20px;
+                        line-height: 20px;
+                        margin: 3px 0;
+                        color: #999;
+                        font-size: 12px;
+                        text-align: center;
+                        &:hover{
+                            color: #0061ae;
+                            transform: translateX(5px);
+                        }
+                    }
+                }
+                .company_show{
+                    float: left;
+                    width: 323px;
+                    text-align: center;
+                    border-left: 1px solid #ccc;
+                    box-sizing: border-box;
+                    img{
+                        width: 222px;
+                        height: 99px;
+                        margin-bottom: 5px;
+                    }
+                    p{
+                        font-size: 12px;
+                        color: #666;
+                        text-align: center;
+                        margin: 5px 0 15px;
+                    }
+                }
+
+            }
+        }
+        .Professional{
+            float: left;
+            width: 100px;
+            height: 32px;
+            display: block;
+            margin: 23px 20px 0;
+            background: #fff;
+            color: #0061ae;
+            font-size: 15px;
+            line-height: 32px;
+            text-align: center;
+            font-weight: bold;
+        }
+        .free_tel{
+            float: right;
+            padding: 17px 0 18px 40px;
+            p{
+                font-size: 14px;
+                height: 20px;
+                line-height: 20px;
+                color: #fff;
+            }
+        }
+    }
+.banner_wrap{
+    width: 1185px;
+    height: 460px;
+    margin: 0 auto;
+    background: url('http://www.17sucai.com/preview/2/2017-11-15/led/uploads/image/20160717/1468730019.jpg') no-repeat;
+}
+.product_center{
+    height: 412px;
+    min-width: 1185px;
+    
+    background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/gray_bg1.jpg') repeat-x;   
+    h3{
+        font-size: 23px;
+        color: #0061ae;
+        text-align: center;
+        padding: 35px 0 23px 0;
+    }
+    .pro_cen{
+        width: 100%;
+        .pro_cen_show{
+            width: 1185px;
+            margin: 0 auto;
+            .center_left{
+                float: left;
+                width: 230px;
+                padding: 0 32px;
+                background: #ffffff;
+                height: 224px;
+                text-align: center;
+            .center_left_tit{
+                font-size: 20px;
+                color: #0061ae;
+                font-weight: bold;
+                margin: 73px 0 12px 0;
+            }
+            .center_left_con{
+                font-size: 12px;
+                color: #666;
+            }
+        }
+        .pro_img{
+            float: left;
+            width: 580px;
+            height: 224px;
+            overflow: hidden;
+        }
+        .pro_right{
+            float: right;
+            width: 297px;
+            height: 224px;
+            background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/customize_bg.jpg');
+        }
+    }
+    }
+
+}
+.items{
+    min-width: 1185px;
+    height: 180px;
+    padding: 58px 0;
+    background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/gray_bg2.jpg') 0 50% repeat-x;
+    .company{
+        width:1185px;
+        margin: 0 auto;
+        .company_info{
+            float: left;
+            width: 590px;
+            height: 177px;
+            overflow: hidden;
+            background: #fff;
+            color: #666;
+            img{
+                display: block;
+                float: left;
+                width: 175px;
+                margin: 20px;
+            }
+            h2{
+                margin-top: 30px;
+                font-weight: bold;
+                color: #0061ae;
+                font-size: 17px;
+            }
+            p{
+                height: 45px;
+                font-size: 12px;
+                color: #999;
+                margin: 15px 0;
+                border-bottom: 1px dotted #ccc;
+                width: 345px;
+                margin-left: 215px;
+            }
+            a{
+                color: #333;
+                font-size: 12px;
+                .more_icon{
+                    display: inline-block;
+                    width: 18px;
+                    height: 18px;
+                    background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') 0 2px no-repeat;
+                    background-position: -39px 0;
+                    vertical-align: middle;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .work_show{
+            float: left;
+            width: 590px;
+            height: 177px;
+            margin-left: 5px;
+            background: #0061ae;
+            .work{
+                width: 241px;
+                margin-left: 30px;
+                float: left;
+                overflow: hidden;
+                color: #fff; 
+                
+                h2{
+                    margin-top: 30px;
+                    font-weight: bold;
+                    color: #fff;
+                    font-size: 17px;
+                    padding-left: 25px;
+                }
+                p{
+                    padding-left: 25px;
+                    font-size: 12px;
+                    color: #fff;
+                    margin: 15px 0;
+                    width: 345px;
+                    &.liner{
+                        width: 30px;
+                        height: 1px;
+                        background: #3381be;
+                        margin: 15px 0 15px 25px;
+                    }
+                }
+            }
+            
+            img{
+                display: block;
+                float: right;
+                width: 295px;
+                overflow: hidden;
+            }
+        }
+    }
+}
+.footer_container{
+    background: #FFF;
+    .footer{
+    width: 1185px;
+    padding: 43px 0 15px;
+    margin: 0 auto;
+    background: #fff;
+    .ul_lar{
+        list-style: none;
+        .about_us{
+            float: left;
+            margin-right: 67px;
+            border-right: 1px dotted #ccc;
+            h4{
+                font-size: 16px;
+                margin-bottom: 10px;
+                font-weight: normal;
+            }
+            li{
+                color: #999;
+                width: 144px;
+                line-height: 24px;
+                font-size: 12px;
+                padding-left: 10px;
+                list-style: none;
+            }
+        }
+        .pro_list{
+            width: 288px;
+            float: left;
+            margin-right: 67px;
+            border-right: 1px dotted #ccc;
+            h4{
+                font-size: 16px;
+                margin-bottom: 10px;
+                font-weight: normal;
+            }
+            li{
+                color: #999;
+                width: 144px;
+                float: left;
+                line-height: 24px;
+                font-size: 12px;
+               // padding-left: 10px;
+                list-style: none;
+            }
+        }
+        .out{
+            float: left;
+            margin-right: 67px;
+            border-right: 1px dotted #ccc;
+            h4{
+                font-size: 16px;
+                margin-bottom: 10px;
+                font-weight: normal;
+            }
+            li{
+                color: #999;
+                width: 144px;
+                line-height: 24px;
+                font-size: 12px;
+                padding-left: 10px;
+                list-style: none;
+            }
+        }
+        .gps{
+            float: left;
+            margin-right: 67px;
+            border-right: 1px dotted #ccc;
+            h4{
+                font-size: 16px;
+                margin-bottom: 10px;
+                font-weight: normal;
+                font-weight: normal;
+                
+            }
+            li{
+                color: #999;
+                width: 144px;
+                line-height: 24px;
+                font-size: 12px;
+                padding-left: 10px;
+                list-style: none;
+            }
+        }
+        .fllow{
+            h3{
+                font-size: 16px;
+                font-weight: normal;
+            }
+            a{
+                display: inline-block;
+                width: 38px;
+                height: 38px;
+                margin-right:10px;
+                margin-top: 10px;
+                background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat;
+                border-radius: 50%;
+            }
+        }
+    }
+}
+.footer_sub{
+    width: 1185px;
+    margin: 43px auto 0;
+    padding: 25px 0;
+    border-top: 1px solid #f0f0f0;
+    .language{
+        position: relative;
+        float: left;
+        width: 150px;
+        height: 38px;
+        background: #0061ae;
+        color: #fff;
+        text-align: center;
+        line-height: 38px;
+        &:hover{
+            .lan_change_display{
+            display: block;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-size: 12px;
+        }
+        .lan_change_display{
+            display: none;
+            position: absolute;
+            bottom: 38px;
+            height: 76px;
+            width: 150px;
+            background: #0061ae;
+            color: #fff;
+            text-align: center;
+            line-height: 38px;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 12px;
+                height: 38px;
+                width: 150px;
+                display: block;
+            }
+        }
+    }
+    .copy_right{
+        float: right;
+        line-height: 38px;
+        color: #999;
+        font-size: 12px;
+    }
+}
+}

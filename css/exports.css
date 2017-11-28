@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.export1 {
+  background: #f9f9f9;
+  padding: 30px 0;
+}
+.export1 h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: normal;
+}
+.export1 .main_list {
+  text-align: center;
+}
+.export1 .main_list ul {
+  width: 900px;
+  height: 200px;
+  margin: auto;
+  overflow: hidden;
+}
+.export1 .main_list ul li {
+  float: left;
+  height: 100%;
+  list-style: none;
+}
+.export1 .main_list ul li i {
+  width: 132px;
+  height: 132px;
+  display: block;
+  background: url('http://www.xskled.com/templates/default/img/icon_example_client.png') no-repeat;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.export1 .main_list ul li p {
+  width: 140px;
+  margin-top: 10px;
+  color: #333;
+  font-size: 15px;
+}
+.export1 .main_list ul li .liner {
+  width: 1px;
+  height: 100%;
+  margin: 0 56px;
+  background: #dedede;
+}
+.export2 {
+  background: #fff;
+  padding: 30px 0;
+}
+.export2 h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: normal;
+}
+.export2 .main_list {
+  width: 900px;
+  margin: auto;
+  text-align: center;
+}
+.export2 .main_list ul li {
+  display: inline-block;
+  list-style: none;
+  width: 179px;
+  margin: 0 23px;
+  vertical-align: top;
+}
+.export2 .main_list ul li i {
+  display: block;
+  width: 122px;
+  height: 138px;
+  margin: auto;
+  margin-top: 20px;
+  background: url('http://www.xskled.com/templates/default/img/icon_example_service.png') no-repeat;
+}
+.export2 .main_list ul li p {
+  margin-top: 20px;
+  color: #333;
+  font-size: 15px;
+}
+.export3 {
+  text-align: center;
+  background: #f9f9f9;
+  padding: 30px 0;
+}
+.export3 h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+  font-size: 22px;
+  font-weight: normal;
+}
+.export3 .export_img {
+  opacity: .5;
+}
+.export3 .export_img:hover {
+  opacity: 1;
+}

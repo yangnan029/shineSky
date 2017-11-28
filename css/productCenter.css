@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main_container {
+  background: #f9f9f9;
+}
+.main_container .banner_img {
+  height: 81px;
+  padding-top: 215px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/banner_product.jpg') no-repeat;
+  background-position: 50% 0;
+}
+.main_container .pro_container {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+}
+.main_container .pro_container ul li {
+  list-style: none;
+  background: #ffffff;
+  float: left;
+  margin: 0 30px 20px 0;
+}
+.main_container .pro_container ul li.pro_first .pro_img {
+  float: left;
+}
+.main_container .pro_container ul li.pro_first .pro_img img {
+  width: 210px;
+}
+.main_container .pro_container ul li.pro_first .pro_p {
+  float: left;
+  width: 180px;
+  margin: 0 30px;
+  padding-top: 28px;
+  background: #ffffff;
+}
+.main_container .pro_container ul li.pro_first .pro_p h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666666;
+}
+.main_container .pro_container ul li.pro_first .pro_p p {
+  height: 60px;
+  margin: 10px 0 24px;
+  border-bottom: 1px dotted #ccc;
+  color: #666;
+}
+.main_container .pro_container ul li.pro_first .pro_p span {
+  font-size: 12px;
+  color: #666666;
+}
+.main_container .pro_container ul li.pro_first .pro_p span i {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-left: 2px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat 0 2px;
+  background-position: -39px -18px;
+  vertical-align: -2px;
+}
+.main_container .pro_container ul li.pro_sec {
+  width: 280px;
+  height: 354px;
+  background: #ffffff;
+}
+.main_container .pro_container ul li.pro_sec img {
+  width: 100%;
+}
+.main_container .pro_container ul li.pro_sec .pro_p {
+  margin: 0 30px;
+  padding-top: 28px;
+}
+.main_container .pro_container ul li.pro_sec .pro_p h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666666;
+}
+.main_container .pro_container ul li.pro_sec .pro_p p {
+  height: 60px;
+  margin: 10px 0 24px;
+  border-bottom: 1px dotted #ccc;
+  color: #666;
+}
+.main_container .pro_container ul li.pro_sec .pro_p span {
+  font-size: 12px;
+  color: #666666;
+}
+.main_container .pro_container ul li.pro_sec .pro_p span i {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  margin-left: 2px;
+  background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat 0 2px;
+  background-position: -39px -18px;
+  vertical-align: -2px;
+}
+.main_container .pro_container ul li:nth-child(1) {
+  margin-right: 0;
+}
+.main_container .pro_container ul li:nth-child(2) {
+  margin-right: 0;
+}
+.main_container .pro_container ul li:nth-child(5) {
+  margin-right: 0;
+}
+.main_container .pro_container ul li:nth-child(8) {
+  margin-right: 0;
+}
+.main_container .pro_container ul li:hover {
+  box-shadow: 0px 0px 10px #000000;
+  z-index: 9;
+}
+.main_container .pro_container ul li:hover .pro_img {
+  overflow: hidden;
+}
+.main_container .pro_container ul li:hover .pro_img img {
+  transition: all .5s;
+  transform: scale(1.1, 1.1);
+}
+.main_container .pro_container ul li:hover .pro_p h2 {
+  color: #0061ae ;
+}
+.main_container .pro_container ul li:hover .pro_p i {
+  transform: translateX(5px);
+  transition: all .5s;
+}

@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main_container{
+    background: #f9f9f9;
+    .banner_img{
+        height: 81px;
+        padding-top: 215px;
+        background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/banner_product.jpg') no-repeat;
+        background-position: 50% 0;
+    }
+    .pro_container{
+        max-width: 900px;
+        margin: auto;
+        margin-top: 20px;
+        ul{
+            li{
+                list-style: none;
+                background: #ffffff;
+                float: left;
+                margin: 0 30px 20px 0;
+                               
+                &.pro_first{
+                    .pro_img{
+                        float: left;
+                        img{
+                            width:210px;
+                        }
+                    }
+                    .pro_p{
+                        float: left;
+                        width: 180px;
+                        margin: 0 30px;
+                        padding-top: 28px;
+                        background: #ffffff;
+                        h2{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #666666;
+                        }
+                        p{
+                            height: 60px;
+                            margin: 10px 0 24px;
+                            border-bottom: 1px dotted #ccc;
+                            color: #666;
+                        }
+                        span{
+                            font-size: 12px;
+                            color: #666666;
+                            i{
+                                display: inline-block;
+                                width: 16px;
+                                height: 15px;
+                                margin-left: 2px;
+                                background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat 0 2px;
+                                background-position: -39px -18px;
+                                vertical-align: -2px;
+                            }
+                        }
+                    }
+                }
+                &.pro_sec{
+                    width: 280px;
+                    height: 354px;
+                    background: #ffffff;
+                    img{
+                        width: 100%;
+                    }
+                    .pro_p{
+                        margin: 0 30px;
+                        padding-top: 28px;
+                        h2{
+                            font-size: 18px;
+                            font-weight: bold;
+                            color: #666666;
+                        }
+                        p{
+                            height: 60px;
+                            margin: 10px 0 24px;
+                            border-bottom: 1px dotted #ccc;
+                            color: #666;
+                        }
+                        span{
+                            font-size: 12px;
+                            color: #666666;
+                            i{
+                                display: inline-block;
+                                width: 16px;
+                                height: 15px;
+                                margin-left: 2px;
+                                background: url('http://www.17sucai.com/preview/2/2017-11-15/led/templates/default/img/sprite.png') no-repeat 0 2px;
+                                background-position: -39px -18px;
+                                vertical-align: -2px;
+                            }
+                        }
+                    }
+                    
+                }
+                
+                &:nth-child(1){
+                    margin-right: 0;
+                }
+                &:nth-child(2){
+                    margin-right: 0;
+                }
+                &:nth-child(5){
+                    margin-right: 0;
+                }
+                &:nth-child(8){
+                    margin-right: 0;
+                }
+                &:hover{
+                    box-shadow: 0px 0px 10px  rgba(0, 0, 0, 1);
+                    z-index: 9;
+                    
+                    .pro_img{
+                        overflow: hidden;
+                        img{
+                            transition:all .5s;
+                            transform: scale(1.1,1.1)
+                        }
+                    }
+                    .pro_p{
+                        h2{
+                            color: #0061ae ;
+                        }
+                        i{
+                            transform: translateX(5px);
+                        transition:all .5s;
+                        }
+                    }
+                } 
+            }
+        }
+    }
+}

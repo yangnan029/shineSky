@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header clearfix">
+            <div class="logo"></div>
+            <div class="header_list">
+                <a href="index.html">首页</a>
+                <a href="aboutUs.html" class="about_us_icon">
+                    关于我们
+                   
+                </a>
+                <a href="productCenter.html">产品中心</a>
+                <a href="exports.html">外贸出口</a>
+                <a href="contactUs.html">联系我们</a>
+             <div class="about_us_display" id="more">
+                        <ol>
+                            <li>
+                                公司简介
+                            </li>
+                            <li>
+                                公司文化
+                            </li>
+                            <li>
+                                公司实力
+                            </li>
+                            <li>
+                                公司新闻
+                            </li>
+                            <li>
+                                资质荣誉
+                            </li>
+                        </ol>
+                        <div class="company_show">
+                            <img src="http://www.xskled.com/templates/default/img/nav01.jpg" alt="">
+                            <p>中国领先的LED灯带照明产品提供商</p>
+                        </div>
+                    </div>
+            </div>
+            <a href="customize.html" class="Professional">专业定制</a>
+            <div class="free_tel">
+                <p>免费热线电话</p>
+                <p>0755-29516255</p>
+            </div>
+        </div>
+    </div>
+    <div class="banner_wrap"></div>
+    <div class="product_center">
+        <h3>产品中心</h3>
+        <div class="pro_cen">
+            <div class="pro_cen_show clearfix">
+                <div class="center_left">
+                    <p class="center_left_tit">RGB + W系列</p>
+                    <p class="center_left_con">实现七彩变换的同时可以拥有纯正的白光</p>
+                </div>
+                <div class="pro_img">
+                    <img src="http://www.17sucai.com/preview/2/2017-11-15/led/uploads/image/20160717/1468752902.jpg" alt="">
+                </div>
+                <div class="pro_right">
+                </div>
+            </div>
+        </div>
+        <div class="pro_list_icon"></div>
+    </div>
+    <div class="items clearfix">
+        <div class="company clearfix">
+            <div class="company_info">
+                <img src="http://www.17sucai.com/preview/2/2017-11-15/led/uploads/image/20160717/1468736798.jpg" alt="">
+                <h2>公司简介</h2>
+                <p>
+                    鑫盛凯(SHINESKY)光电是中国领先的LED灯带照明产品提供商，成立 于2004年，是一家集研发、生产、销售为一体的综合...
+                </p>
+                <a href="#">了解更多
+                    <i class="more_icon"></i>
+                </a>
+            </div>
+            <div class="work_show">
+                <div class="work">
+                    <h2>中小外贸企业专属服务</h2>
+                    <p>为VIP客户提供更多的便利助力签单！</p>
+                    <p class="liner"></p>
+                </div>
+                <img src="http://www.17sucai.com//preview/2/2017-11-15/led/uploads/image/20160717/1468736117.jpg" alt="">
+            </div>
+
+        </div>
+    </div>
+    <div class="footer_container">
+        <div class="footer">
+            <ul class="ul_lar clearfix">
+                <li class="about_us">
+                    <h4>关于我们</h4>
+                    <ul>
+                        <li>公司简介</li>
+                        <li>企业文化</li>
+                        <li>公司实力</li>
+                        <li>公司新闻</li>
+                        <li>资质荣誉</li>
+                    </ul>
+                </li>
+                <li class="pro_list">
+                    <h4>产品中心</h4>
+                    <ul>
+                        <li>RGB + W系列</li>
+                        <li>可调色温系列</li>
+                        <li>电源控制器系列</li>
+                        <li>硬灯条系列</li>
+                        <li>常规高亮系列</li>
+                        <li>恒流系列</li>
+                        <li>幻彩系列</li>
+                    </ul>
+                </li>
+                <li class="out">
+                    <h4>外贸出口</h4>
+                    <ul>
+                        <li>产品系列</li>
+                        <li>专属服务</li>
+                    </ul>
+                </li>
+                <li class="gps">
+                    <h4>辅助导航</h4>
+                    <ul>
+                        <li>网站地图</li>
+                        <li>免责声明</li>
+                        <li>友情链接</li>
+                    </ul>
+                </li>
+                <li class="fllow">
+                    <h3>+ 关注鑫盛凯</h3>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                    <a href="#"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_sub clearfix">
+            <div class="language">
+                <a href="#">LANGUAGE</a>
+                <div class="lan_change_display">
+                    <a href="#">中文</a>
+                    <a href="#">English</a>
+                </div>
+            </div>
+
+            <P class="copy_right">深圳市鑫盛凯光电有限公司版权所有 粤ICP备：0603453号</P>
+        </div>
+    </div>
+    <Script>
+    $(".about_us_icon,#more").on('mouseover',function(){
+        $(".about_us_icon,#more").css({'background':'#ffffff','color':'#0061ae'});
+        $('#more').show()
+    })
+    $(".about_us_icon,#more").on('mouseout',function(){
+        $(".about_us_icon,#more").css({'background':'#0061ae','color':'#ffffff'});
+        $('#more').hide()
+    })
+    </Script>
+</body>
+
+</html>
